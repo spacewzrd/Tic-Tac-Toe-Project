@@ -1,0 +1,114 @@
+body{
+	background-image: url(picnicbg.jpg);
+	background-size: cover;
+	padding: 15%;
+}
+.bb{
+	margin: .5em;
+	text-shadow:.2em .2em .2em #000000;
+}
+#board{
+	display: table;
+	border-spacing: 2em;
+	border-collapse: collapse;
+	background-color:rgba(225,225,225,0.7);
+
+}
+
+.row{
+	display: table-row;
+	border-bottom: solid 2em;
+}
+.row:last-child{
+	border-bottom: none;
+}
+.cell{
+	border-right: solid 2em; 
+	display:table-cell;
+	padding: 5em;
+	text-align: center;
+	overflow: hidden;
+}
+.cell:last-child{
+	border-right: none;
+}
+h1{
+	text-align: center;
+	color: white;
+	font-weight: bolder;
+	font-size: 5em;
+	text-shadow:.5em .5em .5em #000000;
+}
+/*cheese and cracker image styling*/
+#ch1{
+	width: 50px;
+	height: 50px;
+}
+#ch2{
+	width: 50px;
+	height: 50px
+}
+#ch3{
+	width: 50px;
+	height: 50px
+}
+#ch4{
+	width: 50px;
+	height: 50px
+}
+#ch5{
+	width: 50px;
+	height: 50px
+}
+#ch6{
+	width: 50px;
+	height: 50px
+}
+#ch7{
+	width: 50px;
+	height: 50px
+}
+#ch8{
+	width: 50px;
+	height: 50px
+}
+#ch9{
+	width: 50px;
+	height: 50px
+}
+#ck1{
+	width: 50px;
+	height: 50px;
+}
+#ck2{
+	width: 50px;
+	height: 50px;
+}
+#ck3{
+	width: 50px;
+	height: 50px;
+}
+#ck4{
+	width: 50px;
+	height: 50px;
+}
+#ck5{
+	width: 50px;
+	height: 50px;
+}
+#ck6{
+	width: 50px;
+	height: 50px;
+}
+#ck7{
+	width: 50px;
+	height: 50px;
+}
+#ck8{
+	width: 50px;
+	height: 50px;
+}
+#ck9{
+	width: 50px;
+	height: 50px;
+}

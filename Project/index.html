@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
+	<link rel="stylesheet" type="text/css" href="animate.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="js/bootstrap.js"></script>
+	<script src="js.js"></script>
+		<title>Chesse vs Crackers</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+</head>
+<body>
+		<h1>Cheese vs. Crackers</h1>
+		<!-- new game -->
+		<button type="button" class="btn btn-primary btn-lg new bb">New Game</button>
+		<!-- Button trigger modal -->
+	<button type="button" class="btn btn-primary btn-lg bb" data-toggle="modal" data-target="#myModal">
+	  Who Goes First?
+	</button>
+
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="myModalLabel">Cheese or Crackers</h4>
+	      </div>
+	      <div class="modal-body">
+	        Chesse Or Crackers?
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-primary chbutt" data-dismiss="modal">Cheese</button>
+	        <button type="button" class="btn btn-primary ckbutt" data-dismiss="modal">Crackers</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+        <!-- this is the board -->
+	<div id="board" class="table" class="text-center">
+	  <div id="row1" class="row">
+	    <div id="sq1" class="cell"><img id="ch1" class="hidden chesse" src="chesse.jpg"><img id="ck1" class="hidden cracker" src="cracker.jpeg"></div>
+	    <div id="sq2" class="cell"><img id="ch2" class="hidden chesse" src="chesse.jpg"><img id="ck2" class="hidden cracker" src="cracker.jpeg"></div>
+	    <div id="sq3" class="cell"><img id="ch3" class="hidden chesse" src="chesse.jpg"><img id="ck3" class="hidden cracker" src="cracker.jpeg"></div>
+	   </div>
+	  <div id="row2" class="row">
+	    <div id="sq4" class="cell"><img id="ch4" class="hidden chesse" src="chesse.jpg"><img id="ck4" class="hidden cracker" src="cracker.jpeg"></div>
+	    <div id="sq5" class="cell"><img id="ch5" class="hidden chesse" src="chesse.jpg"><img id="ck5" class="hidden cracker" src="cracker.jpeg"></div>
+	    <div id="sq6" class="cell"><img id="ch6" class="hidden chesse" src="chesse.jpg"><img id="ck6" class="hidden cracker" src="cracker.jpeg"></div> 
+	  </div>
+	  <div id="row3" class="row">
+	    <div id="sq7" class="cell"><img id="ch7" class="hidden chesse" src="chesse.jpg"><img id="ck7" class="hidden cracker" src="cracker.jpeg"></div>
+	    <div id="sq8" class="cell"><img id="ch8" class="hidden chesse" src="chesse.jpg"><img id="ck8" class="hidden cracker" src="cracker.jpeg"></div>
+	    <div id="sq9" class="cell"><img id="ch9" class="hidden chesse" src="chesse.jpg"><img id="ck9" class="hidden cracker" src="cracker.jpeg"></div>
+	  </div>
+	</div>
+
+</body>
+</html>
